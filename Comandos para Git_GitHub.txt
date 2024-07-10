@@ -1,0 +1,37 @@
+LEMBRETES E COMANDOS ÚTEIS PARA GIT/GITHUB
+==================================================================================
+--global 
+--system 
+--local 
+==================================================================================
+git config --global --show-origin credential.helper
+git clone URL nome-do-diretorio-local
+cat .gitconfig
+cat .git-credentials
+git remote add origin URL
+git clone URL --branch feature-1 --single-branch 
+git add NOME DO ARQUIVO
+git commit -m "comentário"
+git status --> Status do commits e da working tree
+git log --> Histórico de alterações
+git restore --> restaura um arquivo 
+git reset --(soft, mixed and hard)
+
+mkdir --> Cria um diretório 
+touch LOCAL/NOME DO ARQUIVO.EXTENSÃO --> Cria um arquivo no diretório 
+
+Arquivos não rastreados => arquivos que o git não conhece. 
+
+=============================================================================
+
+COMANDOS USADOS NA CONTRIBUIÇÃO DO PROJETO OPEN SOURCE 
+- Foi feito o Fork 
+- Git clone "LINK DO FORK"
+- Git Checkout - b feat "NOME DA BRANCH" 
+- Touch Snakefromhel.md (criar o arquivo) 
+- EDITEI O README.md 
+- git add "ARQUIVO A SER ADICIONADO A STAGING AREA"
+- git commit -m"feat: add SEU_USERNAME profile" (cria o meu perfil no projeto) 
+- push origin feat/community/SEU_USERNAME (Envia as alterações para o repositório remoto)
+- CRIE UM PULL REQUEST (Faz isso no GitHub) 
+

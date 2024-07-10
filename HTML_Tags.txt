@@ -1,0 +1,63 @@
+=============================================================================
+_HTML (FORMATAÇÃO PADRÂO)
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title> 
+
+<body>
+
+</body>
+
+</head>
+
+
+</html>
+
+===============================================================================
+FORMULÁRIO
+
+form name="signup" onsubmit="alert('Formulário enviado')"
+    autocomplete="on" 
+    target="_self" 
+    method="post" action="#">
+        Nome: <input type="text" name="name"/><br>
+        Idade: <input type="number" name="age"/><br>
+        Senha: <input type="password" name="password"/><br>
+        <button type="submit"> Enviar</button>
+    </form>
+
+
+
+    <form>
+        <label>Text </label><input type="text" /><br>
+        <label>Number </label><input type="number" step="5"  min="0" max="99"/><br>
+        <label>Range </label><input type="range" min="0" max="100"/><br>
+        <label>Color </label><input type="color"/><br>
+        <label>E-mail </label><input type="email"/><br>
+        <label>Url </label><input type="url"/><br>
+        <label>Date </label><input type="date"/><br>
+        <label>Checkbox</label><input type="checkbox"/><label></label><input type="checkbox"/><br>
+        <label>Radio</label><input type="radio" name="aceita"/><label></label><input type="radio" name="aceita"/><br>
+        <label>File</label><input type="file"/><br>
+        <label>Hidden</label><input type="hidden"/><br>
+        <label>Search</label><input type="search"/><br>
+        <label>Button </label><input type="submit" value="Enviar"/><br>
+    </form>
+================================================================================
+EXPLICAÇÕES:
+
+onsubmit="alert('Formulário enviado')" => Faz uma ação em um evento "on";
+autocomplete="on" => não completa os campos do formulário;
+method="post" => método em que os dados são enviados;
+target="_self" e "_blank" => informa que o link vai ser aberto na mesma aba ou não;
+action="#" => informa para onde será enviado os dados; 
+<input type="text" => tipo de input que recebe text;
+<input type="number" => tipo de input que recebe numero ;
+<input type="password" => tipo de input que recebe senha;
+================================================================================
