@@ -1,0 +1,30 @@
+<!-- Modelo de formulário de pedidos -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de pedido</title>
+</head>
+<body>
+    <form method="post">
+        <h3> Você selecionou: Pizza de calabresa</h3>
+        <p>Quais opcionais você quer?</p>
+        <input type="checkbox" name="opcional[]" value="queijo"> + Queijo<br>
+        <input type="checkbox" name="opcional[]" value="calabresa"> + Calabresa<br>
+        <input type="checkbox" name="opcional[]" value="cebola"> + Cebola<br>
+        <input type="checkbox" name="opcional[]" value="azeitona"> + Azeitona<br>
+        <p>Borda recheada?</p>
+        <input type="radio" name="" value="sim">Sim<br>
+        <input type="radio" name="" value="não">Não<br>
+        <p>Bebida</p>
+        <input type="radio" name="" value="suco">Suco<br>
+        <input type="radio" name="" value="refrigerante">Refrigerante<br>
+        <input type="radio" name="" value="agua">Agua<br>
+        <input type="radio" name="" value="nenhum">Nenhum<br><br>
+
+        <button type="submit">Enviar pedido</button>
+    </form>
+    
+</body>
+</html>
