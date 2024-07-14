@@ -1,5 +1,8 @@
 =============================================================================
-_HTML (FORMATAÇÃO PADRÂO)
+## HTML (FORMATAÇÃO PADRÂO) ## 
+
+GET = envia as informações na url 
+POST = envia os formulários com dados embutidos.
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +23,7 @@ _HTML (FORMATAÇÃO PADRÂO)
 </html>
 
 ===============================================================================
-FORMULÁRIO
+## FORMULÁRIO ##
 
 form name="signup" onsubmit="alert('Formulário enviado')"
     autocomplete="on" 
@@ -50,7 +53,7 @@ form name="signup" onsubmit="alert('Formulário enviado')"
         <label>Button </label><input type="submit" value="Enviar"/><br>
     </form>
 ================================================================================
-EXPLICAÇÕES:
+## EXPLICAÇÕES: ##
 
 onsubmit="alert('Formulário enviado')" => Faz uma ação em um evento "on";
 autocomplete="on" => não completa os campos do formulário;
@@ -61,3 +64,63 @@ action="#" => informa para onde será enviado os dados;
 <input type="number" => tipo de input que recebe numero ;
 <input type="password" => tipo de input que recebe senha;
 ================================================================================
+## BOTÕES ##
+
+<form onsubmit="" method="get">
+        <label>Nome:</label><input type="text" name="name"><br>
+        <label>Idade:</label><input type="number" name="age"><br>
+        <label>Password:</label><input type="password" name="password"><br>
+
+        <button type="button, Reset e Submit">Enviar</button>
+    </form>
+
+
+São três tipos: 
+
+Button ==> Botão normal 
+Submit ==> Envia o formulário
+Reset ==> Limpa o formulário  
+
+
+## obs: Fica atento ao botão "enter" do teclado", usar o "Onsubmit" para validar isso. 
+E colocar "*" para especificar que é um campo obrigatório
+=============================================================================================
+## SELECT ## 
+
+
+<form onsubmit="" method="get">
+        <label>Nome:</label><input type="text" name="name"><br>
+        <label>Cargo:</label>
+        <select name="role">
+            <option selected value="Selecione o Cargo">Selecione o Cargo</option>
+            <option value="Administrativo">Administrativo</option>
+            <option value="Gerente">Gerente</option>
+            <option value="Diretor">Diretor</option>
+            <option value="Presidente">Presidente</option>
+        </select><br>
+        <label>Assunto:</label><input type="text" name="subject"><br>
+        <button type="submit">Enviar</button>
+</form>
+
+
+
+<select ==> abre um "box" com valores para serem selecionados> 
+
+# Pode usar o atributo "multiple" para receber vários valores. 
+
+===============================================================================================
+## TEXTAREA ## 
+
+<label>Mensagem</label><br>
+<textarea rows="" cols="" name="message"></textarea>
+
+Recebe um texto 
+
+
+rows="" cols="" (numero de linhas e colunas)
+================================================================================================
+## FORMATAÇÃO ##
+
+
+
+

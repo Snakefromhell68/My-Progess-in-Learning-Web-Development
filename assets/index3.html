@@ -7,7 +7,7 @@
     <title>Formulário de pedido</title>
 </head>
 <body>
-    <form method="post">
+    <form method="get">
         <h3> Você selecionou: Pizza de calabresa</h3>
         <p>Quais opcionais você quer?</p>
         <input type="checkbox" name="opcional[]" value="queijo"> + Queijo<br>
@@ -15,13 +15,13 @@
         <input type="checkbox" name="opcional[]" value="cebola"> + Cebola<br>
         <input type="checkbox" name="opcional[]" value="azeitona"> + Azeitona<br>
         <p>Borda recheada?</p>
-        <input type="radio" name="" value="sim">Sim<br>
-        <input type="radio" name="" value="não">Não<br>
+        <input type="radio" name="borda" value="sim">Sim<br>
+        <input type="radio" name="borda" value="não">Não<br>
         <p>Bebida</p>
-        <input type="radio" name="" value="suco">Suco<br>
-        <input type="radio" name="" value="refrigerante">Refrigerante<br>
-        <input type="radio" name="" value="agua">Agua<br>
-        <input type="radio" name="" value="nenhum">Nenhum<br><br><br>
+        <input type="radio" name="bebida" value="suco">Suco<br>
+        <input type="radio" name="bebida" value="refrigerante">Refrigerante<br>
+        <input type="radio" name="bebida" value="agua">Agua<br>
+        <input type="radio" name="bebida" value="nenhum">Nenhum<br><br><br>
 
         <button type="submit">Enviar pedido</button>
     </form>
