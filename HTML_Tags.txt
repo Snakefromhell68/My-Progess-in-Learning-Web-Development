@@ -121,6 +121,27 @@ rows="" cols="" (numero de linhas e colunas)
 ================================================================================================
 ## FORMATAÇÃO ##
 
+<sup><sup> =====> elevado
+<sub><sub> =====> abaixado
+<mark><mark> ====> Marca texto
+<b><b> ====> Negrito
+<u><u> ===> Underline
+<blockquote><blockquote> =====> ênfase
+<strong><strong> ==========> Negrito, preferencialmente usado. 
+<font color="" Face="" </font> ====> altera a cor e a font
+<span><span> 
+<fildset></fieldset> ============> campo que organiza os botões e inputs
+<legend><legend> =====>> coloca legenda no fieldset
+================================================================================================
+## EMBEDS vs IFRAMES 
 
+<embed src="Arquivo ou link"   width="" height=""> ===> cria uma mídia no site
+<iframe src="arquivo/link" width="" height=""></iframe>
 
-
+=================================================================================================
+## CORES ## 
+> RGB (Vermelho, Verde e Azul) RED>GREEN>BLUE
+> HEX (Vermelho, Verde e Azul, mas é hexadecimal)
+> HSL  (Hue, Saturation and Lighten)
+> RGBA ( RGB com Transparência)
+> HSLA ( HSL com Transparência)
