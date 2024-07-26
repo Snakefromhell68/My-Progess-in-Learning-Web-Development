@@ -1,0 +1,14 @@
+<body>
+    <h1>Seletores CSS</h1>
+    <P>Bem-Vindo!</P>
+    <P>No CSS nós possuímos os seletores por ID</P>
+    <div>
+    <ul>
+        <li><b>Seletor por Tipo:</b> Busca elementos por uma tag HTML especifica </li>
+        <li><b>Seletor por ID (#):</b> Busca elementos através do atributo</li>
+        <li><b>Seletor por Classe (.):</b>Busca elementos através do atributo "class"</li>
+        <li><b>Seletor Universal (*):</b> Seleciona todos os elementos HTML</li>
+        <li><b>Seletor de Atributo([atrib]):</b> Seleciona elementos que possuem um atributo específico em nosso documento HTML e conseguimos também buscar atributos com um valor específico</li>
+    </ul>
+</div>
+</body>
